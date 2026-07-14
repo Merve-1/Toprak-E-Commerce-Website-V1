@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\_Desktop\\Projects-Github\\Toprak-Ecommerce\\API\\API.csproj": {}
+    "D:\\_Desktop\\Projects-Github\\Toprak-Ecommerce\\api\\API.csproj": {}
   },
   "projects": {
-    "D:\\_Desktop\\Projects-Github\\Toprak-Ecommerce\\API\\API.csproj": {
+    "D:\\_Desktop\\Projects-Github\\Toprak-Ecommerce\\api\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\_Desktop\\Projects-Github\\Toprak-Ecommerce\\API\\API.csproj",
+        "projectUniqueName": "D:\\_Desktop\\Projects-Github\\Toprak-Ecommerce\\api\\API.csproj",
         "projectName": "API",
-        "projectPath": "D:\\_Desktop\\Projects-Github\\Toprak-Ecommerce\\API\\API.csproj",
+        "projectPath": "D:\\_Desktop\\Projects-Github\\Toprak-Ecommerce\\api\\API.csproj",
         "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "D:\\_Desktop\\Projects-Github\\Toprak-Ecommerce\\API\\obj\\",
+        "outputPath": "D:\\_Desktop\\Projects-Github\\Toprak-Ecommerce\\api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 25.2\\Components\\Offline Packages",
@@ -58,6 +58,12 @@
           "targetAlias": "net10.0",
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[10.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[10.0.9, )"
             }
@@ -893,6 +899,12 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[10.0.9, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
